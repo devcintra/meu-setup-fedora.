@@ -1,8 +1,10 @@
 " ================== Gerenciador de Plugins ==================
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
+Plug 'jacoborus/tender.vim'
 Plug 'sainnhe/sonokai'
 Plug 'catppuccin/nvim'
+Plug 'shaunsingh/nord.nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
@@ -56,8 +58,13 @@ filetype indent on
 
 
 " ================== Tema ==================
-colorscheme gruvbox
-
+" colorscheme tender
+set termguicolors
+colorscheme default
+highlight Normal guibg=NONE ctermbg=NONE
+highlight LineNr guibg=NONE
+highlight SignColumn guibg=NONE
+highlight EndOfBuffer guibg=NONE
 
 " ================== remaps ==================
 " Adding an empty line below, above and below with insert
@@ -101,7 +108,7 @@ autocmd! CursorHold,CursorHoldI * call HighlightWordUnderCursor()
 
 
 " ================== airline ==================
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'tender'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
