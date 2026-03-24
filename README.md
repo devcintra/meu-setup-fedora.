@@ -6,6 +6,7 @@
 - Editor: Neovim
 - Theme: GruvBox
 - Desktop: Gnome
+- Font: Jetbrains mono bold
 
 **extensions:**
 - Blur my shell
