@@ -6,6 +6,7 @@
 - Editor: Neovim
 - Theme: GruvBox
 - Desktop: Gnome
+- Font: Jetbrains mono bold
 
 **extensions:**
 - Blur my shell
@@ -21,4 +22,5 @@
 - pop-shell (for tiling window manager)
 
 
+**Preview**
 <img width="1920" height="1080" alt="20250720_22h08m02s_grim" src="preview.png" />
